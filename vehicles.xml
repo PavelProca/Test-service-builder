@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+
+	<cartype>
+		<type>Sedan</type>
+		
+		<packages>
+			<name>Package 1</name>
+			<name>Package 2</name>
+		</packages>
+
+		<addons>
+			<name>Addon 1</name>
+			<name>Addon 2</name>
+			<name>Addon 3</name>
+		</addons>
+	</cartype>
+
+	<cartype>
+		<type>SUV</type>
+
+		<packages>
+			<name>Package 1</name>
+			<name>Package 2</name>
+			<name>Package 3</name>
+			<name>Package 4</name>
+		</packages>
+
+		<addons>
+			<name>Addon 1</name>
+			<name>Addon 2</name>
+		</addons>
+	</cartype>
+
+	<cartype>
+		<type>Sedan</type>
+
+		<packages>
+			<name>Package 1</name>
+		</packages>
+
+		<addons>
+			<name>Addon 1</name>
+			<name>Addon 2</name>
+			<name>Addon 3</name>
+			<name>Addon 4</name>
+			<name>Addon 5</name>
+		</addons>
+	</cartype>
+
+</element>
