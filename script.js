@@ -5,7 +5,7 @@ function qwert() {
 	xmlhttp.open("GET", "vehicles.xml", false); //this will open our XML file
 	xmlhttp.send(); //this will send request to file
 	xmlDoc=xmlhttp.responseXML;
-	asd = xmlDoc.getElementsByTagName("cartype")[0].childNodes[0].nodeValue;
+	asd = xmlDoc.getElementsByTagName("cartype")[0].childNodes[1].nodeValue;
 	alert(asd);
 	// this will return the tag value
 	xmlhttp.close("GET", "vehicles.xml", false);
